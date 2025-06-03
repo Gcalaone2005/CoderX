@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GSCoderX - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+
+    h1, h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    .section-title {
+      margin: 50px 0 20px;
+      font-size: 28px;
+      color: #444;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      padding: 80px 20px 100px;
+    }
+
+    .resources-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .resource-card {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .resource-card:hover {
+      transform: scale(1.05);
+    }
+
+    .resource-image {
+      width: 100%;
+      height: 160px;
+      object-fit: contain;
+      background: #f0f0f0;
+      padding: 10px;
+    }
+
+    .resource-content {
+      padding: 15px 20px 20px;
+    }
+
+    .resource-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .resource-links a {
+      display: block;
+      color: #007bff;
+      text-decoration: none;
+      margin-bottom: 6px;
+    }
+
+    .resource-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="top-header">
+    <div class="container navbar">
+      <h1 class="logo">GSCoderX</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About</a></li>
+          <li><a href="contactus.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Learn to Code with GSCoderX</h2>
+      <p>Master HTML, CSS, JavaScript, and more with handpicked resources and platforms.</p>
+      <a href="#html-resources" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Frontend -->
+  <h2 class="section-title">Frontend</h2>
+    <div class="resources-container">
+    <!-- HTML -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML">
+      <div class="resource-content">
+        <div class="resource-title">HTML</div>
+        <div class="resource-links">
+          <a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Docs</a>
+          <a href="https://html.com/" target="_blank">HTML.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CSS -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS">
+      <div class="resource-content">
+        <div class="resource-title">CSS</div>
+        <div class="resource-links">
+          <a href="https://www.w3schools.com/css/" target="_blank">W3Schools</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Docs</a>
+          <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript">
+      <div class="resource-content">
+        <div class="resource-title">JavaScript</div>
+        <div class="resource-links">
+          <a href="https://www.javascript.com/" target="_blank">JavaScript.com</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN Docs</a>
+          <a href="https://www.w3schools.com/js/" target="_blank">W3Schools</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- React -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React">
+      <div class="resource-content">
+        <div class="resource-title">React.js</div>
+        <div class="resource-links">
+          <a href="https://reactjs.org/" target="_blank">Official Docs</a>
+          <a href="https://legacy.reactjs.org/docs/getting-started.html" target="_blank">React Docs Legacy</a>
+          <a href="https://www.freecodecamp.org/news/tag/react/" target="_blank">FreeCodeCamp</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tailwind CSS -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind">
+      <div class="resource-content">
+        <div class="resource-title">Tailwind CSS</div>
+        <div class="resource-links">
+          <a href="https://tailwindcss.com/docs" target="_blank">Tailwind Docs</a>
+          <a href="https://tailwindui.com/" target="_blank">Tailwind UI</a>
+          <a href="https://www.w3schools.com/w3css/" target="_blank">W3.CSS</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Git & GitHub -->
+    <div class="resource-card">
+      <img class="resource-image" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git">
+      <div class="resource-content">
+        <div class="resource-title">Git & GitHub</div>
+        <div class="resource-links">
+          <a href="https://git-scm.com/doc" target="_blank">Git Docs</a>
+          <a href="https://docs.github.com/" target="_blank">GitHub Docs</a>
+          <a href="https://learngitbranching.js.org/" target="_blank">Learn Git Branching</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Backend -->
+  <h2 class="section-title">Backend</h2>
+  <div class="resources-container">
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://nodejs.org/static/images/logo.svg" alt="Node.js">
+      <div class="resource-content">
+        <div class="resource-title">Node.js</div>
+        <div class="resource-links">
+          <a href="https://nodejs.org/en/docs/" target="_blank">Official Docs</a>
+          <a href="https://www.w3schools.com/nodejs/" target="_blank">W3Schools</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPWXoi7cy3HEsFJ8kqj7FQisLz0IBP9r7hW-4RysSgRZKI0BLQm46I0nn-PwKi2112FaU&usqp=CAU" alt="Express.js">
+      <div class="resource-content">
+        <div class="resource-title">Express.js</div>
+        <div class="resource-links">
+          <a href="https://expressjs.com/" target="_blank">Official Docs</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs" target="_blank">MDN Express</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://www.mongodb.com/assets/images/global/favicon.ico" alt="MongoDB">
+      <div class="resource-content">
+        <div class="resource-title">MongoDB / SQL</div>
+        <div class="resource-links">
+          <a href="https://www.mongodb.com/docs/" target="_blank">MongoDB Docs</a>
+          <a href="https://www.postgresql.org/docs/" target="_blank">PostgreSQL</a>
+          <a href="https://dev.mysql.com/doc/" target="_blank">MySQL Docs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://www.iconpacks.net/icons/free-icons-6/free-rest-api-blue-logo-icon-22098-thumb.png" alt="REST API">
+      <div class="resource-content">
+        <div class="resource-title">REST API</div>
+        <div class="resource-links">
+          <a href="https://restfulapi.net/" target="_blank">RESTful API</a>
+          <a href="https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/" target="_blank">Smashing Mag</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://jwt.io/img/pic_logo.svg" alt="Auth">
+      <div class="resource-content">
+        <div class="resource-title">Authentication</div>
+        <div class="resource-links">
+          <a href="https://jwt.io/introduction" target="_blank">JWT Intro</a>
+          <a href="https://auth0.com/docs" target="_blank">Auth0 Docs</a>
+          <a href="https://oauth.net/" target="_blank">OAuth.net</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DevOps & Tools -->
+  <h2 class="section-title">DevOps & Tools</h2>
+  <div class="resources-container">
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker">
+      <div class="resource-content">
+        <div class="resource-title">Docker</div>
+        <div class="resource-links">
+          <a href="https://docs.docker.com/" target="_blank">Docker Docs</a>
+          <a href="https://www.freecodecamp.org/news/the-docker-handbook/" target="_blank">FreeCodeCamp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" alt="Jenkins">
+      <div class="resource-content">
+        <div class="resource-title">CI/CD</div>
+        <div class="resource-links">
+          <a href="https://docs.github.com/en/actions" target="_blank">GitHub Actions</a>
+          <a href="https://www.jenkins.io/doc/" target="_blank">Jenkins Docs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux">
+      <div class="resource-content">
+        <div class="resource-title">Linux Basics</div>
+        <div class="resource-links">
+          <a href="https://linuxjourney.com/" target="_blank">Linux Journey</a>
+          <a href="https://ryanstutorials.net/linuxtutorial/" target="_blank">Ryan's Tutorial</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" alt="Nginx">
+      <div class="resource-content">
+        <div class="resource-title">Nginx</div>
+        <div class="resource-links">
+          <a href="https://nginx.org/en/docs/" target="_blank">Nginx Docs</a>
+          <a href="https://www.digitalocean.com/community/tutorial_series/nginx" target="_blank">DO Tutorials</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Extras -->
+  <h2 class="section-title">Extras</h2>
+  <div class="resources-container">
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TypeScript">
+      <div class="resource-content">
+        <div class="resource-title">TypeScript</div>
+        <div class="resource-links">
+          <a href="https://www.typescriptlang.org/docs/" target="_blank">TypeScript Docs</a>
+          <a href="https://www.w3schools.com/typescript/" target="_blank">W3Schools</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" alt="Next.js">
+      <div class="resource-content">
+        <div class="resource-title">Next.js</div>
+        <div class="resource-links">
+          <a href="https://nextjs.org/docs" target="_blank">Next.js Docs</a>
+          <a href="https://nextjs.org/learn" target="_blank">Next.js Learn</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" alt="GraphQL">
+      <div class="resource-content">
+        <div class="resource-title">GraphQL</div>
+        <div class="resource-links">
+          <a href="https://graphql.org/learn/" target="_blank">GraphQL Learn</a>
+          <a href="https://www.apollographql.com/docs/" target="_blank">Apollo Docs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://upload.wikimedia.org/wikipedia/en/6/6b/Redis_Logo.svg" alt="Redis">
+      <div class="resource-content">
+        <div class="resource-title">Redis</div>
+        <div class="resource-links">
+          <a href="https://redis.io/docs/" target="_blank">Redis Docs</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-card">
+      <img class="resource-image" src="https://miro.medium.com/v2/resize:fit:896/1*IcIxVnaxNU1SSumaQ76Xiw.png" alt="WebSockets">
+      <div class="resource-content">
+        <div class="resource-title">WebSockets</div>
+        <div class="resource-links">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" target="_blank">MDN WebSockets</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Connect with us:</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2025 GSCoderX. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

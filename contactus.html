@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GSCoderX | Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .main {
+      padding: 80px 20px 100px;
+    }
+
+    .contact-section {
+      padding: 60px 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    .contact-section h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #e67e22;
+    }
+
+    .contact-section p {
+      font-size: 18px;
+      margin-bottom: 40px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    .contact-content {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 0 auto;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .contact-details,
+    .contact-form {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .contact-details h3 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      color: #333;
+    }
+
+    .contact-details li {
+      margin-bottom: 12px;
+      font-size: 16px;
+      list-style: none;
+    }
+
+    .contact-details a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+
+    .contact-details a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 14px 16px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: #fff;
+      color: #000;
+    }
+
+    .contact-form textarea {
+      height: 150px;
+      resize: vertical;
+    }
+
+    .contact-form button {
+      background-color: #e67e22;
+      color: white;
+      border: none;
+      padding: 14px 16px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #d35400;
+    }
+
+    @media (max-width: 768px) {
+      .contact-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="top-header">
+    <div class="container navbar">
+      <div class="logo">GSCoderX</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>If you have questions, feedback, or collaboration ideas, feel free to reach out. We're happy to hear from you!</p>
+
+      <div class="contact-content">
+        <div class="contact-details">
+          <h3>Reach Us Directly</h3>
+          <ul>
+            <li>📧 Email: <a href="mailto:contact@gscoderx.com">contact@gscoderx.com</a></li>
+            <li>📞 Phone: +91 70200 54957</li>
+            <li>📍 Location: Mumbai, India</li>
+            <li>🔗 GitHub: <a href="https://github.com/GSCoderX" target="_blank">GSCoderX</a></li>
+            <li>💼 LinkedIn: <a href="https://linkedin.com/in/GSCoderX" target="_blank">linkedin.com/in/GSCoderX</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>Connect with us:</strong></p>
+    <div class="social-links">
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="mailto:contact@gscoderx.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+    <p class="footer-credit">&copy; GSCoderX - All rights reserved</p>
+  </footer>
+
+</body>
+</html>

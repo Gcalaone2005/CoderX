@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GSCoderX | About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 60px 20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+      box-shadow: rgba(0,0,0,0.9);
+    }
+
+    .left img {
+      max-width: 100%;
+      border-radius: 10px;
+      border: 2px solid #e67e22;
+    }
+
+    .right {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .right h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .right p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .features {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .features li {
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .features li::before {
+      content: "✔";
+      color: #e67e22;
+      margin-right: 10px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #e67e22;
+      color: #fff;
+      padding: 12px 25px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #d35400;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .right h2 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="top-header">
+    <div class="container navbar">
+      <div class="logo">GSCoderX</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <section class="about-container container">
+    <div class="left">
+      <img src="C:\Users\giris\Desktop\my new project\premium_photo-1682141007707-1f09c5a1d814.jpeg" alt="Team Collaboration">
+    </div>
+    <div class="right">
+      <h2>We Do It Together</h2>
+      <p><strong>GSCoderX</strong> is a guided learning platform built to help you become a Full Stack Web Developer — even if you're starting from scratch.</p>
+      <p>Unlike random tutorials, <strong>GSCoderX</strong> provides a clear, step-by-step roadmap — from HTML basics to deploying full-stack applications.</p>
+      
+      <ul class="features">
+        <li>Curated Learning Paths</li>
+        <li>Project-Based Learning</li>
+        <li>Free Tools & Resources</li>
+        <li>Skill Checks & Quizzes</li>
+        <li>Career-Readiness Support</li>
+      </ul>
+
+      <a class="cta-btn" href="aboutus.html">Read More</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>Connect with us:</strong></p>
+    <div class="social-links">
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="mailto:contact@gscoderx.com"><i class="fas fa-envelope"></i> Email</a>
+    </div>
+    <p class="footer-credit">&copy; GSCoderX - All rights reserved</p>
+  </footer>
+
+</body>
+</html>
